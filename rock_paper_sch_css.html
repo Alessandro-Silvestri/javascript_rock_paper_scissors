@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>rock paper scissors - Game - score object</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <p class="p-title">
+        ROCK / PAPER / SCISSORS
+    </p>
+    <div class="div-circle" onclick="game(0)">
+        &#128074; <!-- rock 0--> 
+    </div>
+    <div class="div-circle" onclick="game(1)">   
+        &#128400; <!-- paper 1-->
+    </div>
+    <div class="div-circle" onclick="game(2)">
+        &#9996; <!-- scissors 2-->
+    </div>
+    <br>
+    <p class="p-result-title" id="js-result-title">
+        You Loose
+    </p>
+    <p class="p-result">
+        you <span class="ico-hand" id="player"> X </span>
+        <span class="ico-hand" id="computer"> X</span>  computer     
+    </p>
+    <p class="p-result" id="js-result">
+        you: 7 computer: 8 draw: 6
+    </p>
+    <button onclick="scoreActions.reset()">Reset score</button>
+</body>
+</html>
+<script src="script.js"></script>
+
+
+
+
