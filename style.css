@@ -21,7 +21,7 @@ button:hover {
     background-color: green;
 }
 
-.p-title, .p-result-title, .p-result {
+.p-title, .p-result-title, .p-result, .p-credit {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 30px;
     color: white;
@@ -36,6 +36,12 @@ button:hover {
 .p-result {
     font-size: 20px;
     font-weight: 100;
+}
+
+.p-credit {
+    font-size: 15px;
+    font-weight:100;
+    margin-top: -20px;
 }
 
 .div-circle {
